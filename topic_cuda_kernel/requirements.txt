@@ -1,8 +1,9 @@
 # Run the lesson notebook in this folder.
-jupyter
-numpy
-matplotlib
-torch
+jupyter==1.1.1
+ipykernel==7.2.0
+numpy==2.2.6
+matplotlib==3.10.3
+torch==2.10.0
 
 # Only needed if you want to rebuild the notebook from scripts/.
-nbformat
+nbformat==5.10.4
