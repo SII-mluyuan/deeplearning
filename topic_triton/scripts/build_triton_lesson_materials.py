@@ -293,7 +293,7 @@ def build_notebook():
             - Matrix Multiplication tutorial：<https://triton-lang.org/main/getting-started/tutorials/03-matrix-multiplication.html>
             - Triton GitHub 仓库：<https://github.com/triton-lang/triton>
 
-            课堂里的讲法和图示做了重新组织，重点是把原理讲顺，而不是照着官方教程逐行念代码。
+            这里的讲法和图示做了重新组织，重点是把原理讲顺，而不是照着官方教程逐行念代码。
             """
         ),
         code(
@@ -351,7 +351,7 @@ def build_notebook():
 
             > **a language and compiler for parallel programming**
 
-            可以把它翻成更适合课堂的说法：
+            可以把它翻成更直观的说法：
 
             > **Triton 是一个用 Python 风格写 GPU kernel 的语言和编译器。**
 
@@ -407,7 +407,7 @@ def build_notebook():
             - 哪些中间结果值得保留在更快的存储里
 
             Triton 的好处是：它把这些问题保留了，但把很多底层样板收掉了。  
-            这让课堂更容易把注意力放在 **计算模式** 上，而不是被 API 细节冲散。
+            这让注意力更容易放在 **计算模式** 上，而不是被 API 细节冲散。
             """
         ),
         md(
@@ -442,7 +442,7 @@ def build_notebook():
         ),
         md(
             """
-            ### 一个很重要的课堂提问点
+            ### 一个很重要的问题
 
             可以先问一句：
 
@@ -459,7 +459,7 @@ def build_notebook():
             """
             # Part 3. 第一个例子：vector add
 
-            这是 Triton 官方教程的第一个例子，也是最适合课堂起步的例子。  
+            这是 Triton 官方教程的第一个例子，也是最适合起步的例子。  
             因为它几乎可以把 Triton 的几个基本原语一次讲清：
 
             - `tl.program_id`
@@ -656,7 +656,7 @@ def build_notebook():
 
             > **如果一个操作可以在 kernel 里就地连着做完，就尽量别拆成很多次显存往返。**
 
-            这也是 Triton 在课堂上特别好讲的一点，因为它非常容易把“融合”的价值讲得具体。
+            这也是 Triton 特别容易讲清的一点，因为它非常容易把“融合”的价值讲得具体。
             """
         ),
         md(
@@ -805,7 +805,7 @@ def build_notebook():
                 tl.store(...)
             ```
 
-            这段代码课堂上最该看的不是省略号，而是结构：
+            这段代码最该看的不是省略号，而是结构：
 
             - 先定位自己负责的 `(pid_m, pid_n)` 输出块
             - 再构造这个块对应的行列 offsets
@@ -887,7 +887,7 @@ def build_notebook():
             - 不同硬件、不同输入规模，最优参数经常不同
 
             所以 Triton 经常会把“同一个 kernel 的多个配置”拿去 benchmark，然后选更合适的那个。  
-            这就是课堂里讲 `autotune` 最通俗的方式。
+            这就是讲 `autotune` 最通俗的方式。
             """
         ),
         md(
@@ -956,7 +956,7 @@ def build_notebook():
             """
             # ------------------------------
             # 这段代码做什么：
-            # 1. 给出课堂上可以现场追问的几个问题
+            # 1. 给出几个可以继续追问的问题
             # 2. 方便把这份 notebook 真正讲成互动课，而不是单向演示
             # ------------------------------
             questions = [

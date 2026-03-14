@@ -262,7 +262,7 @@ def build_outline():
         5. 用 reduction 解释“很多值变一个值”的并行模式
         6. 最后回到 PyTorch：卷积、matmul、attention 背后都是 kernel
 
-        ## 课堂重点
+        ## 重点
         - kernel = 同一段小程序，交给大量线程并行执行
         - block = 一组更容易协作、共享数据的线程
         - tile = 为了减少重复访存，把小块数据搬进更快的局部存储
@@ -479,7 +479,7 @@ def build_notebook():
 
             > **这两种写法虽然实现不同，但结果最多相差多少？**
 
-            课堂里可以把这一步讲成一句简单原则：
+            这一步可以先记成一句简单原则：
 
             > **先验证“算得对不对”，再比较“算得快不快”。**
             """
@@ -1171,7 +1171,7 @@ def build_notebook():
             - 先把相关小块搬近一点，再反复利用
             - 这样比反复从大内存零散取数据更高效
 
-            `N = 96` 的作用只是选一个课堂上能跑完、又足够看出差异的矩阵尺寸。  
+            `N = 96` 的作用只是选一个能跑完、又足够看出差异的矩阵尺寸。  
             它不是理论必须，只是方便演示。
 
             所以这整块代码的教学作用有三个：
@@ -1224,7 +1224,7 @@ def build_notebook():
 
             with warnings.catch_warnings():
                 # 当前环境的 NumPy / BLAS 在 matmul 时会吐出无害的 RuntimeWarning，
-                # 结果本身是正常的，这里只是不让课堂输出被这些 warning 干扰。
+                # 结果本身是正常的，这里只是不让输出被这些 warning 干扰。
                 warnings.simplefilter("ignore", RuntimeWarning)
                 C_naive, t_naive = benchmark(matmul_naive, A, B, repeats=1)
                 C_tiled, t_tiled = benchmark(matmul_tiled, A, B, repeats=3, tile=16)
@@ -1504,7 +1504,7 @@ def build_notebook():
             2. 几个小算子来回读写内存，想做融合
             3. 某个算子已经是性能瓶颈，而且现成实现不合适
 
-            也可以这样讲给课堂听：
+            也可以这样理解：
 
             - `DDP` 决定多卡怎么一起训练
             - `autograd` 决定梯度怎么传
@@ -1551,7 +1551,7 @@ def build_notebook():
             """
             # ------------------------------
             # 这段代码做什么：
-            # 1. 给出一个课堂上的小实战练习模板
+            # 1. 给出一个小实战练习模板
             # 2. 把 pointwise / stencil / reduction 三类 kernel 模式放到同一页
             # ------------------------------
             practice = {

@@ -220,7 +220,7 @@ def build_notebook():
 
             这些原始 notebook 都有可用价值，但也各有问题：
 
-            - `CLIP_from_scratch.ipynb` 依赖外部 repo 和 Flickr8k，不适合作为课堂默认实操。
+            - `CLIP_from_scratch.ipynb` 依赖外部 repo 和 Flickr8k，不适合作为默认实操。
             - `OpenAI_clip.ipynb` 很短，更像一个最小 demo。
             - `ImageBind.ipynb` 更像现成模型推理，不是教学主线。
 
@@ -316,7 +316,7 @@ def build_notebook():
             """
             # Part 2. 从零实现一个 toy CLIP
 
-            直接用 Flickr8k 或更大的图文数据集做课堂实操并不理想。  
+            直接用 Flickr8k 或更大的图文数据集做默认实操并不理想。  
             所以这里换成一个更适合讲原理的例子：
 
             - 图像：彩色几何图形
@@ -434,7 +434,7 @@ def build_notebook():
             """
             ### 这里要强调什么
 
-            这一小节看起来只是“造数据”，但它其实解决了课堂上的一个关键难点：
+            这一小节看起来只是“造数据”，但它其实解决了一个关键难点：
 
             - 什么叫图文配对？
             - 什么叫共享语义空间？
@@ -882,11 +882,11 @@ def build_notebook():
             # ------------------------------
             # 这段代码做什么：
             # 1. 给出一个 ImageBind 的最小可选演示入口
-            # 2. 默认不运行，以免课堂环境被安装和大模型拖慢
+            # 2. 默认不运行，以免当前环境被安装和大模型拖慢
             # ------------------------------
             if RUN_IMAGEBIND:
                 print("请参考原书中的 ImageBind 示例安装依赖并执行。")
-                print("这一格保留的目的是把 ImageBind 放进课程主线，而不是在 CPU 课堂里强行跑大模型。")
+                print("这一格保留的目的是把 ImageBind 放进课程主线，而不是在 CPU 环境里强行跑大模型。")
             else:
                 print("跳过 ImageBind 实际推理。")
                 print("默认讲解重点放在 CLIP 的共享空间思想，以及它如何扩展到更多模态。")

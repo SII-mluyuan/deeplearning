@@ -389,7 +389,7 @@ def build_notebook():
             D_{KL}(q_\phi(z|x)\|p(z))
             $$
 
-            课堂上更建议先把它读成下面这句，而不是把中文硬塞进公式里：
+            更建议先把它读成下面这句，而不是把中文硬塞进公式里：
 
             $$
             \mathrm{ELBO}(x)=
@@ -622,7 +622,7 @@ def build_notebook():
             train_raw = datasets.MNIST(DATA_ROOT / "MNIST", train=True, download=True, transform=transform)
             val_raw = datasets.MNIST(DATA_ROOT / "MNIST", train=False, download=True, transform=transform)
 
-            # 为了课堂演示速度，这里只取一个较小子集。
+            # 为了演示速度，这里只取一个较小子集。
             train_ds = Subset(train_raw, list(range(4096)))
             val_ds = Subset(val_raw, list(range(1024)))
 
@@ -659,7 +659,7 @@ def build_notebook():
             # 这段代码做什么：
             # 1. 从零定义一个最小 VAE
             # 2. 把 encoder / reparameterization / decoder 拆开写清楚
-            # 3. 同时返回总 loss、重建项和 KL 项，方便课堂分析
+            # 3. 同时返回总 loss、重建项和 KL 项，方便观察和分析
             # ------------------------------
             class SmallVAE(nn.Module):
                 def __init__(self, latent_dim=2):
@@ -757,7 +757,7 @@ def build_notebook():
             2. `logvar` 决定这个分布有多“散”
             3. `beta` 决定重建和分布正则之间的平衡
 
-            课堂里很容易把 VAE 讲成“就是 AE 多了个 KL”。不够。更准确的说法是：
+            很容易把 VAE 讲成“就是 AE 多了个 KL”。不够。更准确的说法是：
 
             > **VAE 不是只学一个隐变量点，而是在学一个可采样、可插值、可泛化的潜空间。**
             """
@@ -1529,7 +1529,7 @@ def build_notebook():
             # ------------------------------
             # 这段代码做什么：
             # 1. 给出一个 Stable Diffusion 的最小可选演示入口
-            # 2. 默认不运行大模型，避免 CPU 课堂环境被卡住
+            # 2. 默认不运行大模型，避免 CPU 环境被卡住
             # ------------------------------
             if RUN_HEAVY_MODELS:
                 from diffusers import DiffusionPipeline
@@ -1593,7 +1593,7 @@ def build_notebook():
 
             <img src="images/lesson5_generative/controlnet_paper_fig.png" width="760">
 
-            这张图来自原论文的 Figure 3。课堂上最值得强调的是：
+            这张图来自原论文的 Figure 3。最值得强调的是：
 
             - 左边是原本 Stable Diffusion 的 U-Net 主干
             - 右边多出来的是可训练副本和 zero convolution
