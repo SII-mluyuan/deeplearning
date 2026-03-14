@@ -240,12 +240,12 @@ def build_notebook():
 
             来自书里的可用内容主要有：
 
-            - `Chapter11/VAE.ipynb`
-            - `Chapter16/Diffusion_Pytorch.ipynb`
-            - `Chapter16/Conditional_Diffuser_training.ipynb`
-            - `Chapter16/Unet_Components_from_scratch.ipynb`
-            - `Chapter16/Stable_Diffusion_pipeline.ipynb`
-            - `Chapter17/ControlNet-Inference.ipynb`
+            - `VAE.ipynb`
+            - `Diffusion_Pytorch.ipynb`
+            - `Conditional_Diffuser_training.ipynb`
+            - `Unet_Components_from_scratch.ipynb`
+            - `Stable_Diffusion_pipeline.ipynb`
+            - `ControlNet-Inference.ipynb`
 
             这些原始 notebook 有两个问题：
 
@@ -1412,7 +1412,7 @@ def build_notebook():
             """
             # ------------------------------
             # 这段代码做什么：
-            # 1. 构造一个和 Chapter16 思路一致、但更轻量的 UNet2DModel
+            # 1. 构造一个和原始示例思路一致、但更轻量的 UNet2DModel
             # 2. 观察图像 diffusion 中的输入输出 shape
             # ------------------------------
             image_unet = UNet2DModel(
@@ -1449,7 +1449,7 @@ def build_notebook():
             # ------------------------------
             # 这段代码做什么：
             # 1. 用一个最小例子演示“条件信息如何进入扩散模型”
-            # 2. 对应 Chapter16 的 Conditional_Diffuser_training 思路
+            # 2. 对应条件 diffusion 的原始示例思路
             # ------------------------------
             label_embedding = nn.Embedding(num_embeddings=10, embedding_dim=4).to(device)
             labels = torch.tensor([0, 1, 2, 3], device=device)
@@ -1578,7 +1578,7 @@ def build_notebook():
             """
             <img src="images/lesson5_generative/controlnet_concept.png" width="980">
 
-            ### 这部分和 Chapter17 的联系
+            ### 这部分和 ControlNet 原始示例的联系
 
             `ControlNet-Inference.ipynb` 里的核心流程其实很简单：
 
@@ -1660,7 +1660,7 @@ def build_notebook():
                 display(out.images[0])
             else:
                 print("跳过 ControlNet 推理。")
-                print("上面这格的重点是把 Chapter17 的推理接口和控制图流程理顺。")
+                print("上面这格的重点是把 ControlNet 的推理接口和控制图流程理顺。")
             """
         ),
         md(

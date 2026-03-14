@@ -80,9 +80,9 @@
   - label / text / extra condition 如何注入
 
 配套来源：
-- `Chapter16/Diffusion_Pytorch.ipynb`
-- `Chapter16/Conditional_Diffuser_training.ipynb`
-- `Chapter16/Unet_Components_from_scratch.ipynb`
+- `Diffusion_Pytorch.ipynb`
+- `Conditional_Diffuser_training.ipynb`
+- `Unet_Components_from_scratch.ipynb`
 
 ### 6. Stable Diffusion：latent diffusion 的系统理解（20-25 分钟）
 
@@ -95,7 +95,7 @@
   - classifier-free guidance
 
 配套来源：
-- `Chapter16/Stable_Diffusion_pipeline.ipynb`
+- `Stable_Diffusion_pipeline.ipynb`
 
 ### 7. ControlNet：从语义控制到结构控制（15-20 分钟）
 
@@ -104,7 +104,7 @@
 - 说明 ControlNet 的额外输入到底在约束什么
 
 配套来源：
-- `Chapter17/ControlNet-Inference.ipynb`
+- `ControlNet-Inference.ipynb`
 
 ### 8. 总结与讨论（10 分钟）
 

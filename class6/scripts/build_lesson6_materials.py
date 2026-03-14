@@ -214,9 +214,9 @@ def build_notebook():
 
             本节课主要参考：
 
-            - `Chapter16/CLIP_from_scratch.ipynb`
-            - `Chapter16/OpenAI_clip.ipynb`
-            - `Chapter16/ImageBind.ipynb`
+            - `CLIP_from_scratch.ipynb`
+            - `OpenAI_clip.ipynb`
+            - `ImageBind.ipynb`
 
             这些原始 notebook 都有可用价值，但也各有问题：
 
@@ -885,7 +885,7 @@ def build_notebook():
             # 2. 默认不运行，以免课堂环境被安装和大模型拖慢
             # ------------------------------
             if RUN_IMAGEBIND:
-                print("请参考原书的 Chapter16/ImageBind.ipynb 安装依赖并执行。")
+                print("请参考原书中的 ImageBind 示例安装依赖并执行。")
                 print("这一格保留的目的是把 ImageBind 放进课程主线，而不是在 CPU 课堂里强行跑大模型。")
             else:
                 print("跳过 ImageBind 实际推理。")

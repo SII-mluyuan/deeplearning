@@ -139,7 +139,7 @@
 对应授课 notebook：
 - `FashionMNIST` 加载代码之前
 - 原书来源：
-  [Preparing_our_data.ipynb](/Users/mlyuan413/homework/004-苛捐杂税/003-计算机视觉计算课程/Modern-Computer-Vision-with-PyTorch-2E/Chapter03/Preparing_our_data.ipynb)
+  `Preparing_our_data.ipynb`
 
 ---
 
@@ -305,7 +305,7 @@ optimizer.step()
 对应授课 notebook：
 - `前向传播和学习率`
 - 原书来源：
-  [Feed_forward_propagation.ipynb](/Users/mlyuan413/homework/004-苛捐杂税/003-计算机视觉计算课程/Modern-Computer-Vision-with-PyTorch-2E/Chapter01/Feed_forward_propagation.ipynb)
+  `Feed_forward_propagation.ipynb`
 
 ---
 
@@ -346,7 +346,7 @@ optimizer.step()
 对应授课 notebook：
 - `run_gradient_descent` 曲线单元
 - 原书来源：
-  [Learning_rate.ipynb](/Users/mlyuan413/homework/004-苛捐杂税/003-计算机视觉计算课程/Modern-Computer-Vision-with-PyTorch-2E/Chapter01/Learning_rate.ipynb)
+  `Learning_rate.ipynb`
 
 ---
 
@@ -370,7 +370,7 @@ optimizer.step()
 对应授课 notebook：
 - `梯度到底是什么？`
 - 原书参考：
-  [Chain_rule.ipynb](/Users/mlyuan413/homework/004-苛捐杂税/003-计算机视觉计算课程/Modern-Computer-Vision-with-PyTorch-2E/Chapter01/Chain_rule.ipynb)
+  `Chain_rule.ipynb`
 
 ---
 
@@ -440,7 +440,7 @@ param = param - lr * grad
 - 训练时还会帮我们管理参数对象、梯度缓存和优化器状态
 
 讲者提示：
-- 这一页是从 Chapter01 自然过渡到 Chapter02 的关键。
+- 这一页是从手推梯度自然过渡到 PyTorch 自动求导的关键。
 - 如果学生已经开始混淆 `grad` 和 `step`，就在这里收束一遍：
   - autograd 负责算梯度
   - optimizer 负责用梯度更新参数
@@ -514,7 +514,7 @@ param = param - lr * grad
 - `A.pow(2).sum()` 自动求导单元
 - `线性层 + 激活 + 损失` 梯度单元
 - 原书来源：
-  [Auto_gradient_of_tensors.ipynb](/Users/mlyuan413/homework/004-苛捐杂税/003-计算机视觉计算课程/Modern-Computer-Vision-with-PyTorch-2E/Chapter02/Auto_gradient_of_tensors.ipynb)
+  `Auto_gradient_of_tensors.ipynb`
 
 ---
 
@@ -534,7 +534,7 @@ param = param - lr * grad
 对应授课 notebook：
 - `model_toy = nn.Sequential(...)`
 - 原书来源：
-  [Building_a_neural_network_using_PyTorch_on_a_toy_dataset.ipynb](/Users/mlyuan413/homework/004-苛捐杂税/003-计算机视觉计算课程/Modern-Computer-Vision-with-PyTorch-2E/Chapter02/Building_a_neural_network_using_PyTorch_on_a_toy_dataset.ipynb)
+  `Building_a_neural_network_using_PyTorch_on_a_toy_dataset.ipynb`
 
 ---
 
@@ -623,7 +623,7 @@ optimizer.step()
 - `单个样本的图像张量 shape`
 - `一个 batch 的图像 shape`
 - 原书参考：
-  [Steps_to_build_a_neural_network_on_FashionMNIST.ipynb](/Users/mlyuan413/homework/004-苛捐杂税/003-计算机视觉计算课程/Modern-Computer-Vision-with-PyTorch-2E/Chapter03/Steps_to_build_a_neural_network_on_FashionMNIST.ipynb)
+  `Steps_to_build_a_neural_network_on_FashionMNIST.ipynb`
 
 ---
 
@@ -752,7 +752,7 @@ optimizer.step()
 对应授课 notebook：
 - `Loss / Accuracy` 曲线单元
 - 原书参考：
-  [Scaling_the_dataset.ipynb](/Users/mlyuan413/homework/004-苛捐杂税/003-计算机视觉计算课程/Modern-Computer-Vision-with-PyTorch-2E/Chapter03/Scaling_the_dataset.ipynb)
+  `Scaling_the_dataset.ipynb`
 
 ---
 
@@ -831,7 +831,7 @@ optimizer.step()
 对应授课 notebook：
 - `Why MLP is not enough for images`
 - 原书参考：
-  [Impact_of_building_a_deeper_neural_network.ipynb](/Users/mlyuan413/homework/004-苛捐杂税/003-计算机视觉计算课程/Modern-Computer-Vision-with-PyTorch-2E/Chapter03/Impact_of_building_a_deeper_neural_network.ipynb)
+  `Impact_of_building_a_deeper_neural_network.ipynb`
 
 ---
 
