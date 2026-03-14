@@ -208,25 +208,6 @@ def build_notebook():
             最后再引出 ImageBind：CLIP 并不是终点，它只是“共享空间”这条路线里最重要的一步。
             """
         ),
-        md(
-            """
-            ## 这份 notebook 主要参考了哪些原始材料
-
-            本节课主要参考：
-
-            - `CLIP_from_scratch.ipynb`
-            - `OpenAI_clip.ipynb`
-            - `ImageBind.ipynb`
-
-            这些原始 notebook 都有可用价值，但也各有问题：
-
-            - `CLIP_from_scratch.ipynb` 依赖外部 repo 和 Flickr8k，不适合作为默认实操。
-            - `OpenAI_clip.ipynb` 很短，更像一个最小 demo。
-            - `ImageBind.ipynb` 更像现成模型推理，不是教学主线。
-
-            所以下面的版本会重写成：**概念解释 + CPU 默认可跑的实操 + 大模型扩展**。
-            """
-        ),
         code(
             """
             # ------------------------------
