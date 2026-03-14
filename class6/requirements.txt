@@ -1,0 +1,11 @@
+# Run the lesson notebook in this folder.
+jupyter
+numpy
+matplotlib
+torch
+torchvision
+pillow
+transformers
+
+# Only needed if you want to rebuild the notebook from scripts/.
+nbformat

@@ -1,0 +1,6 @@
+# Run the lesson notebook in this folder.
+jupyter
+numpy
+matplotlib
+torch
+torchvision
