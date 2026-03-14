@@ -234,27 +234,6 @@ def build_notebook():
             - **第三层：最后讲 Stable Diffusion / ControlNet。** 这时再回头看系统组件，逻辑会顺很多。
             """
         ),
-        md(
-            """
-            ## 这份 notebook 主要参考了哪些原始材料
-
-            来自书里的可用内容主要有：
-
-            - `VAE.ipynb`
-            - `Diffusion_Pytorch.ipynb`
-            - `Conditional_Diffuser_training.ipynb`
-            - `Unet_Components_from_scratch.ipynb`
-            - `Stable_Diffusion_pipeline.ipynb`
-            - `ControlNet-Inference.ipynb`
-
-            这些原始 notebook 有两个问题：
-
-            - 它们更偏“单点 demo”，而不是一节课的连续叙事。
-            - Stable Diffusion / ControlNet 部分默认假设 GPU 较强。
-
-            所以下面的版本会重新组织成：**概念解释 + CPU 默认可跑的主线实操 + 大模型部分的可选扩展**。
-            """
-        ),
         code(
             """
             # ------------------------------
