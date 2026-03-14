@@ -13,7 +13,7 @@ from matplotlib import patches
 ROOT = Path(__file__).resolve().parents[1]
 IMAGE_DIR = ROOT / "images" / "lesson_kernel_intro"
 NOTEBOOK_PATH = ROOT / "专题_从并行计算到CUDA_Kernel_讲解版.ipynb"
-OUTLINE_PATH = ROOT / "专题_从并行计算到CUDA_Kernel_PPT大纲.md"
+OUTLINE_PATH = ROOT / "专题_从并行计算到CUDA_Kernel_大纲.md"
 
 
 def md(text: str):

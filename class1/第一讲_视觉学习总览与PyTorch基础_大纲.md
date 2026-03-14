@@ -1,13 +1,13 @@
 # 第一讲：视觉学习总览与 PyTorch 基础
-## PPT / Keynote 可粘贴大纲版讲稿
+## 可粘贴大纲版讲稿
 
 使用说明：
 - 课程总时长按 `3 小时` 设计，含一次 `10 分钟` 课间休息
-- 每个 `Slide` 对应一页 PPT
+- 每个 `Slide` 对应一页幻灯片
 - `页面文案` 适合直接粘贴到幻灯片
 - `讲者提示` 建议放在备注区，不必全部上屏
 - `对应授课 notebook` 默认指向本次新整理的讲课版 notebook：
-  [第一讲_视觉学习总览与PyTorch基础_讲解版.ipynb](/Users/mlyuan413/homework/004-苛捐杂税/003-计算机视觉计算课程/第一讲_视觉学习总览与PyTorch基础_讲解版.ipynb)
+  [第一讲_视觉学习总览与PyTorch基础_讲解版.ipynb](./第一讲_视觉学习总览与PyTorch基础_讲解版.ipynb)
 
 ---
 
@@ -875,8 +875,8 @@ optimizer.step()
 ## 本讲使用文件
 
 - 讲稿大纲：
-  [第一讲_视觉学习总览与PyTorch基础_PPT大纲.md](/Users/mlyuan413/homework/004-苛捐杂税/003-计算机视觉计算课程/第一讲_视觉学习总览与PyTorch基础_PPT大纲.md)
+  [第一讲_视觉学习总览与PyTorch基础_大纲.md](./第一讲_视觉学习总览与PyTorch基础_大纲.md)
 - 授课 notebook：
-  [第一讲_视觉学习总览与PyTorch基础_讲解版.ipynb](/Users/mlyuan413/homework/004-苛捐杂税/003-计算机视觉计算课程/第一讲_视觉学习总览与PyTorch基础_讲解版.ipynb)
+  [第一讲_视觉学习总览与PyTorch基础_讲解版.ipynb](./第一讲_视觉学习总览与PyTorch基础_讲解版.ipynb)
 - 插图目录：
-  [images/lesson1_intro](/Users/mlyuan413/homework/004-苛捐杂税/003-计算机视觉计算课程/images/lesson1_intro)
+  [images/lesson1_intro](./images/lesson1_intro)

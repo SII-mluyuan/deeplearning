@@ -1,4 +1,4 @@
-# 第六讲：多模态与 CLIP PPT 大纲
+# 第六讲：多模态与 CLIP 大纲
 
 ## 课程定位
 
@@ -107,9 +107,9 @@
 ## 你现在可以直接使用的材料
 
 - Notebook：
-  - [第六讲_多模态与CLIP_讲解版.ipynb](/Users/mlyuan413/homework/004-苛捐杂税/003-计算机视觉计算课程/第六讲_多模态与CLIP_讲解版.ipynb)
+  - [第六讲_多模态与CLIP_讲解版.ipynb](./第六讲_多模态与CLIP_讲解版.ipynb)
 - 配图目录：
-  - [images/lesson6_multimodal](/Users/mlyuan413/homework/004-苛捐杂税/003-计算机视觉计算课程/images/lesson6_multimodal)
+  - [images/lesson6_multimodal](./images/lesson6_multimodal)
 
 这份 notebook 的设计原则是：
 

@@ -16,9 +16,3 @@
   - CUDA kernel 专题
 - `topic_triton`
   - Triton 原理与编程模型专题
-
-## 说明
-
-- 各目录与 `class2` 同级放置。
-- 已按课程交付材料整理，不包含外层 `课程整理总文件夹`。
-- `class6` 未提交 `cifar_data`，打开 notebook 时可按代码自动下载。

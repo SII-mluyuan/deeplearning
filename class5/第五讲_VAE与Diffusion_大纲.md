@@ -1,4 +1,4 @@
-# 第五讲：VAE 与 Diffusion PPT 大纲
+# 第五讲：VAE 与 Diffusion 大纲
 
 ## 课程定位
 
@@ -37,7 +37,7 @@
   - reconstruction loss + KL loss
 
 配套 notebook：
-- [第五讲_VAE与Diffusion_讲解版.ipynb](/Users/mlyuan413/homework/004-苛捐杂税/003-计算机视觉计算课程/第五讲_VAE与Diffusion_讲解版.ipynb)
+- [第五讲_VAE与Diffusion_讲解版.ipynb](./第五讲_VAE与Diffusion_讲解版.ipynb)
   - Part 1 前半
 
 ### 2. VAE 实操：MNIST 上的潜空间、重建、插值（30-35 分钟）
@@ -142,8 +142,8 @@
 ## 你现在可以直接使用的材料
 
 - Notebook：
-  - [第五讲_VAE与Diffusion_讲解版.ipynb](/Users/mlyuan413/homework/004-苛捐杂税/003-计算机视觉计算课程/第五讲_VAE与Diffusion_讲解版.ipynb)
+  - [第五讲_VAE与Diffusion_讲解版.ipynb](./第五讲_VAE与Diffusion_讲解版.ipynb)
 - 配图目录：
-  - [images/lesson5_generative](/Users/mlyuan413/homework/004-苛捐杂税/003-计算机视觉计算课程/images/lesson5_generative)
+  - [images/lesson5_generative](./images/lesson5_generative)
 
 这份 notebook 已经按 `CPU 默认可跑 + 重模型部分可选` 的方式组织好了，适合课堂环境直接使用。

@@ -13,7 +13,7 @@ from matplotlib import patches
 ROOT = Path(__file__).resolve().parents[1]
 IMAGE_DIR = ROOT / "images" / "lesson_triton_intro"
 NOTEBOOK_PATH = ROOT / "专题_Triton原理与编程模型_讲解版.ipynb"
-OUTLINE_PATH = ROOT / "专题_Triton原理与编程模型_PPT大纲.md"
+OUTLINE_PATH = ROOT / "专题_Triton原理与编程模型_大纲.md"
 
 
 def md(text: str):
