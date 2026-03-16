@@ -1,0 +1,2 @@
+trimesh>=4.0.0
+pyrender>=0.1.45
